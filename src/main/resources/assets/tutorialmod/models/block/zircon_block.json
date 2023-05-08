@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "up": "tutorialmod:block/soldinium_up",
+    "down": "tutorialmod:block/soldinium_down",
+    "north": "tutorialmod:block/soldinium_front",
+    "south": "tutorialmod:block/soldinium_back",
+    "east": "tutorialmod:block/soldinium_right",
+    "west": "tutorialmod:block/soldinium_left"
+
+  }
+}
