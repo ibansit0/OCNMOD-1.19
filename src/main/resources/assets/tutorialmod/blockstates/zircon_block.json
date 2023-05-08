@@ -1,5 +1,5 @@
 {
   "variants": {
-    " ": {"model": "tutorialmod:block/zircon_block"}
+    "": {"model": "tutorialmod:block/zircon_block"}
   }
 }
