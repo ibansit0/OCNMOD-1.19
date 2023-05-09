@@ -2,9 +2,13 @@
   "item.tutorialmod.zircon": "Soldinium",
   "item.tutorialmod.raw_zircon": "Soldinium crudo",
 
+  "item.tutorialmod.ocn_item": "OCN",
+
   "block.tutorialmod.zircon_block": "Bloque de Soldinium",
   "block.tutorialmod.zircon_ore": "Mena de Soldinium",
   "block.tutorialmod.deepslate_zircon_ore": "Qsy de Soldinium",
+
+
 
   "itemGroup.tutorialtab": "OCN items"
 }
