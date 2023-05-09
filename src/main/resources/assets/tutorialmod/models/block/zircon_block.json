@@ -1,6 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
+    "particle": "tutorialmod:block/soldinium_up",
     "up": "tutorialmod:block/soldinium_up",
     "down": "tutorialmod:block/soldinium_down",
     "north": "tutorialmod:block/soldinium_front",
