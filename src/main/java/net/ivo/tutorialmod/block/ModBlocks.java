@@ -2,6 +2,7 @@ package net.ivo.tutorialmod.block;
 
 import net.ivo.tutorialmod.TutorialMod;
 import net.ivo.tutorialmod.block.custom.JumpyBlock;
+import net.ivo.tutorialmod.block.custom.ZirconLamp;
 import net.ivo.tutorialmod.item.ModCreativeModeTab;
 import net.ivo.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -38,6 +39,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
             ()-> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> ZIRCON_LAMP = registerBlock("zircon_lamp",
+            ()-> new ZirconLamp(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(ZirconLamp.LIT) ? 15:0)), ModCreativeModeTab.TUTORIAL_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)  {

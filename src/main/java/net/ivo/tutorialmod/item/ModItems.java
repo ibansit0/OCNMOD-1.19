@@ -22,6 +22,10 @@ public class ModItems {
     public static final RegistryObject<Item> OCN_ITEM = ITEMS.register("ocn_item",
             () -> new OcnItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1)));
 
+    public static final RegistryObject<Item> ZIRCON_SWORD = ITEMS.register("zircon_sword",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1).durability(1000)));
+
+
 
 
     public static void register(IEventBus eventBus){
