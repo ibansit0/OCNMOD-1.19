@@ -4,6 +4,9 @@
   "item.tutorialmod.zircon_sword": "Espada de Soldinium",
 
   "item.tutorialmod.ocn_item": "OCN",
+  "item.tutorialmod.el_queso": "El Queso",
+  "item.tutorialmod.leche_uli": "Leche de Trolo",
+  "item.tutorialmod.queso_fundido": "Queso Fundido",
 
   "block.tutorialmod.zircon_block": "Bloque de Soldinium",
   "block.tutorialmod.zircon_ore": "Mena de Soldinium",
@@ -11,6 +14,8 @@
   "block.tutorialmod.zircon_lamp": "Lámpara de Soldinium",
 
   "block.tutorialmod.jumpy_block": "Sonata di Bloque",
+  "block.tutorialmod.queso_crop": "Cultivo de Queso",
 
-  "itemGroup.tutorialtab": "OCN items"
+  "itemGroup.tutorialtab": "OCN items",
+  "entity.minecraft.villager.tutorialmod.jumpy_master": "La Bolita"
 }

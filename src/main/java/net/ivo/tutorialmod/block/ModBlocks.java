@@ -2,6 +2,7 @@ package net.ivo.tutorialmod.block;
 
 import net.ivo.tutorialmod.TutorialMod;
 import net.ivo.tutorialmod.block.custom.JumpyBlock;
+import net.ivo.tutorialmod.block.custom.QuesoCrop;
 import net.ivo.tutorialmod.block.custom.ZirconLamp;
 import net.ivo.tutorialmod.item.ModCreativeModeTab;
 import net.ivo.tutorialmod.item.ModItems;
@@ -10,6 +11,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -44,6 +46,9 @@ public class ModBlocks {
             ()-> new ZirconLamp(BlockBehaviour.Properties.of(Material.GLASS)
                     .strength(6f).requiresCorrectToolForDrops()
                     .lightLevel(state -> state.getValue(ZirconLamp.LIT) ? 15:0)), ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> QUESO_CROP = BLOCKS.register("queso_crop",
+            ()-> new QuesoCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)  {
